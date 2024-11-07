@@ -16,8 +16,8 @@ package tests;
 * I have not given other fellow student(s) access to my program.
 */
 
-import static org.junit.Assert.*;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
 import model.Car;
 
 
