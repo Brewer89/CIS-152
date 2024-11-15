@@ -17,7 +17,6 @@ package dmacc.edu;
 */
 
 
-
 import javax.swing.JFrame;
 
 import view.CarDriverPanel;
