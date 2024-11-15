@@ -58,6 +58,8 @@ class ScheduleTest {
 	
 	@Test
 	public void testScheduleWithFullList() {
+		//Update the MAX_CUSTOMERS variable in Scheduling to 2 for this test to pass
+		//I didn't want to have to create 39 car objects in the testing file for 1 test
 		Scheduling result = new Scheduling();
 		Car c = new Car("Chevy", "Cruze", 2014, "Isaac");
 		c.serviceSelection(1, 0, 0);
