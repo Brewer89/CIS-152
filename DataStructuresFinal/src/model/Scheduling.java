@@ -19,7 +19,7 @@ package model;
 
 public class Scheduling {
 
-	private final int MAX_CUSTOMERS = 38;
+	private final int MAX_CUSTOMERS = 2;
 	private QuickLubeQueue qlQueue = new QuickLubeQueue();
 	private FullServiceQueue fsQueue = new FullServiceQueue();
 	
